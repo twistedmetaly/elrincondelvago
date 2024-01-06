@@ -1,9 +1,13 @@
 import './App.css'
-import {RouterProvider} from "react-router-dom";
-import {router} from "./core/router/router.jsx";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import HomeContainer from "./pages/home/containers/HomeContainer.jsx";
 
 function App() {
-    return <RouterProvider router={router}/>
+    return <BrowserRouter basename="/elrincondelvago">
+        <Routes>
+            <Route path="/" element={<HomeContainer/>}/>
+        </Routes>
+    </BrowserRouter>
 }
 
 export default App
