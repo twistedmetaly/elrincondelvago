@@ -1,4 +1,4 @@
-import {createBrowserRouter, Navigate} from "react-router-dom";
+import {createBrowserRouter} from "react-router-dom";
 import {lazy} from "react";
 import Root from "../../layout/Root.jsx";
 
@@ -90,4 +90,4 @@ export const router = createBrowserRouter([
         ]
     }
 
-], {basename: '/elrincondelvago'})
+], {basename: 'https://twistedmetaly.github.io/elrincondelvago'})
