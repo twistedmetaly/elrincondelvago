@@ -1,0 +1,1 @@
+import{j as e}from"./index-jqeczS7e.js";const s=()=>e.jsxs(e.Fragment,{children:[e.jsx("h1",{children:"Acceder"}),e.jsx("input",{type:"email",placeholder:"Email o nombre de usuario"}),e.jsx("input",{type:"password",placeholder:"Password"})]});export{s as default};
