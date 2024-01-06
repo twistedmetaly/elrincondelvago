@@ -18,12 +18,9 @@ const LoginContainer = lazy(() => import('../../pages/security/containers/LoginC
 const SignUpContainer = lazy(() => import('../../pages/security/containers/SignUpContainer.jsx'))
 
 export const router = createBrowserRouter([
+
     {
         path: '/',
-        element: <Navigate to="elrincondelvago"/>,
-    },
-    {
-        path: 'elrincondelvago',
         element: <Root/>,
         children: [
             {
