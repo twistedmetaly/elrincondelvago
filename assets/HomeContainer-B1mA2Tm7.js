@@ -1,1 +1,0 @@
-import{j as r,H as e,L as t}from"./index-ZAROO9yn.js";import o from"./JobOfferListContainer-zoPyZmyu.js";import"./jobOffersServices-q1wxN5aM.js";const a=()=>r.jsxs(r.Fragment,{children:[r.jsx(e,{children:r.jsx("title",{children:"El rincon del vago"})}),r.jsx("h1",{children:"Homepage"}),r.jsx(t,{to:"ofertas/crear",children:"Ofrecer trabajo"}),r.jsx(o,{})]});export{a as default};
