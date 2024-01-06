@@ -90,4 +90,4 @@ export const router = createBrowserRouter([
         ]
     }
 
-], {basename: 'https://twistedmetaly.github.io/elrincondelvago'})
+], {basename: '/elrincondelvago'})
