@@ -1,4 +1,5 @@
 import {action, axiosInstance} from "../../../core/services/api.service.js";
+import {reduceJob} from "../utils/utils.js";
 
 const OFFERS_URL = "ofertas";
 
@@ -7,7 +8,7 @@ export const getJobOffers = () => axiosInstance({
         method: action.get,
         url: OFFERS_URL
     }
-}).then(conf => conf.data);
+}).then(({data}) => data.data).then(reduceJob);
 
 export const getJobOffer = (id) => axiosInstance({
     action: {

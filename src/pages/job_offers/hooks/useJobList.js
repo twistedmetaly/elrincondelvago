@@ -5,7 +5,7 @@ const useJobList = () => {
     const [jobs, setJobs] = useState([])
 
     useEffect(() => {
-        getJobOffers().then(resp => setJobs(resp));
+        getJobOffers().then(setJobs)
     }, [])
 
     return jobs;
