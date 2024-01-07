@@ -1,0 +1,1 @@
+import{j as e,L as r}from"./index-KTGQawPu.js";const a=()=>e.jsxs(e.Fragment,{children:[e.jsx("h1",{children:"Create profile"}),e.jsx("input",{type:"text",placeholder:"Nombre y apellidos"}),e.jsx(r,{to:"/",children:"Cancelar"}),e.jsx("button",{children:"Guardar perfil"})]});export{a as default};
