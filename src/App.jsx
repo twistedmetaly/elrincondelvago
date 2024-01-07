@@ -2,8 +2,8 @@ import './App.css'
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import {lazy} from "react";
 import Root from "./layout/Root.jsx";
-import BasicLayout from "./layout/BasicLayout.jsx";
 
+const BasicLayout = lazy(() => import('./layout/BasicLayout.jsx'))
 const HomeContainer = lazy(() => import('./pages/home/containers/HomeContainer.jsx'))
 
 function App() {
